@@ -1,0 +1,5 @@
+amount=int(input("Enter amount in Rupees:"))
+time=int(input("Enter years of deposition:"))
+interest_rate=float(input("Enter rate in %:"))
+print(f"Final amount after {time} years invested at {interest_rate}% interest is : Rs.",amount+(amount*time*interest_rate/100)) 
+print("Total interest gained : Rs.",amount*time*interest_rate/100)
